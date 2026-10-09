@@ -1,0 +1,27 @@
+# Virtual environments
+.venv/
+1.venv/
+venv/
+env/
+
+# Node dependencies
+node_modules/
+frontend/node_modules/
+
+# Python cache & databases
+__pycache__/
+*.pyc
+backend/uploads/*
+!backend/uploads/.gitkeep
+*.db
+agnes_learning.db
+
+# Logs & build outputs
+*.log
+frontend/dist/
+
+# OS and IDE files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
